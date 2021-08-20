@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+    <sim>
+        <description>MF-1000 Fictional Air Superioriry Fighter</description>
+        <long-description>The MF-1000 is a Stealth Super Maneuverable Air Superiority Fighter. The initial idea, concept and form was created by Megaf in August 2021.</long-description>
+        <aircraft-version>0.1</aircraft-version>
+        
+        <rating>
+            <FDM type="int">1</FDM>
+            <systems type="int">1></systems>
+            <cockpit type="int">1></cockpit>
+            <model type="int">1></model>
+        </rating>
+        
+        <authors>
+            <author n="0">
+                <name>Megaf</name>
+                <nick>Megaf</nick>
+                <email>mmegaf@gmail.com</email>
+                <description>Concept, Design</description>
+            </author>
+            <author n="1">
+                <name>Wolf</name>
+                <nick>Wolf</nick>
+                <email></email>
+                <description>Design, 3D Model</description>
+            </author>
+        </authors>
+        
+        <maintainers>
+            <maintainer n="0">
+                <name>Megaf</name>
+                <nick>Megaf</nick>
+                <email>mmegaf@gmail.com</email>
+            </maintainer>
+        </maintainers>
+        
+        <tags>
+            <tag n="0">jet</tag>
+            <tag n="1">fighter</tag>
+            <tag n="2">ww3</tag>
+        </tags>
+        
+        <urls>
+            <home-page>https://mf-1000.github.io</home-page>
+            <support>https://discord.gg/3MFZauxyPW</support>
+            <code-repository>https://github.com/FlightGearRepublic/MF-1000/</code-repository>
+        </urls>
+        
+        <previews>
+            <preview>
+                <type>exterior</type>
+                <splash type="bool">true</splash>
+                <path>Previews/exterior-1.png</path>
+            </preview>
+        </previews>
+        
+        <flight-model>jsb</flight-model>
+        <aero>MF-1000</aero>
+        
+        <model>
+            <path></path>
+        </model>
+        
+        <sound>
+            <path></path>
+        </sound>
+        
+        <aircraft>
+            <icao>
+                <wake-turbulence-category>M</wake-turbulence-category>
+                <type type="string">MF1000</type>
+            </icao>
+        </aircraft>
+    </sim>
+</PropertyList>

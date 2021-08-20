@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://jsbsim.sourceforge.net/JSBSim.xsl"?>
+
+<fdm_config name="MF-1000" version="2.0" release="ALPHA"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
+
+ <fileheader>
+    <author>Megaf - https://github.com/Megaf</author>
+    <filecreationdate>20/10/2021</filecreationdate>
+    <version>0.1</version>
+    <description>MF-1000 Fictional Air Superioriry Fighter</description>
+ </fileheader>
+ 
+ 
+</fdm_config>
