@@ -5,6 +5,7 @@
         <key n="97">
             <name>a</name>
             <desc>Autostart</desc>
+            <exit/>
             <binding>
                 <command>nasal</command>
                 <script>
