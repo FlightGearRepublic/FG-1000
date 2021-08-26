@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
     <sim>
-        <description>MF-1000 Fictional Air Superioriry Fighter</description>
-        <long-description>The MF-1000 is a Stealth Super Maneuverable Air Superiority Fighter. The initial idea, concept and form was created by Megaf in August 2021.</long-description>
+        <description>FG-1000 Fictional Air Superioriry Fighter</description>
+        <long-description>The FG-1000 is a Stealth Super Maneuverable Air Superiority Fighter. The initial idea, concept and form was created by Megaf in August 2021.</long-description>
         <aircraft-version>0.1</aircraft-version>
         
         <rating>
@@ -42,9 +42,9 @@
         </tags>
         
         <urls>
-            <home-page>https://mf-1000.github.io</home-page>
+            <home-page>https://fg-1000.github.io</home-page>
             <support>https://discord.gg/3MFZauxyPW</support>
-            <code-repository>https://github.com/FlightGearRepublic/MF-1000/</code-repository>
+            <code-repository>https://github.com/FlightGearRepublic/FG-1000/</code-repository>
         </urls>
         
         <previews>
@@ -56,7 +56,7 @@
         </previews>
         
         <flight-model>jsb</flight-model>
-        <aero>MF-1000</aero>
+        <aero>FG-1000</aero>
         
         <model>
             <path></path>
@@ -69,7 +69,7 @@
         <aircraft>
             <icao>
                 <wake-turbulence-category>M</wake-turbulence-category>
-                <type type="string">MF1000</type>
+                <type type="string">FG1000</type>
             </icao>
         </aircraft>
     </sim>
