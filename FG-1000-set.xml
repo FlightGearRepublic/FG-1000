@@ -73,4 +73,10 @@
             </icao>
         </aircraft>
     </sim>
+    
+    <input>
+        <keyboard>
+            <multikey include="Input/multikey.xml"/>
+        </keyboard>
+    </input>
 </PropertyList>

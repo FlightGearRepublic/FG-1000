@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+    <key n="101">
+        <key n="97">
+            <name>a</name>
+            <desc>Autostart</desc>
+            <exit/>
+            <binding>
+                <command>nasal</command>
+                <script>
+                    setprop("/controls/engines/engine/cutoff", 0);
+                    setprop("/fdm/jsbsim/propulsion/set-running", 0);
+                </script>
+            </binding>
+        </key>
+    </key>
+</PropertyList>
