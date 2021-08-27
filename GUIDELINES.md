@@ -1,18 +1,18 @@
 # Development Guidelines
 
-These are the general guidelines for everyone who wishes to contribute to this projects.
+These are the general guidelines for everyone who wishes to contribute to this project.
 
 ## Developing For This Project
 
 Thank you very much for your time and interest in this project!
 
-We greatly appreciate that you are here interested either developing for this project, reporting a bug or making a suggestion
+We greatly appreciate that you are here, interested either developing for this project, reporting a bug or making a suggestion
 
 Please read on how to help.
 
 ### Development Workflow
 
-1. If you would like to help with code and or multimedia assets, you will need a [GitHub account](https://github.com/join).
+1. If you would like to help with code and/or multimedia assets, you will need a [GitHub account](https://github.com/join).
 2. Then you create a [fork](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/about-forks) from the **[main](https://github.com/FlightGearRepublic/FG-1000/tree/main)** branch.
 3. In **your fork** create a new branch with a **descriptive name** of what you are doing or changing. If you are working on spelling improvements, then a good name for your branch will be "SpellingWork". If you are reducing the code size, then a good name would be "CodeRedux"
 4. Test your changes, test your code, your assets or whatever you are changing.
@@ -52,11 +52,11 @@ Everyone, developers, users and alike are more than welcome to report bugs and m
 #### Bugs
 
 Bugs are things that are not working as expected. Crashes can be caused by bugs as well.
-If you found any bug or something is not behaving as expected or as it should then you are welcome to report it. 
+If you found any bug or something is not behaving as expected or as it should, please report it! 
 
 #### Suggestions
 
-If there is something that although is working properly, but you'd like to be done in a different way, or if you have a suggestion on how to improve something, then you are to create an issue and submit your suggestion.
+If there is something that although is working properly, but you'd like to be done in a different way, or if you have a suggestion on how to improve something, then you are welcome to create an issue and submit your suggestion.
 
 #### Creating An Issue
 
