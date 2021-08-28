@@ -59,7 +59,7 @@
         <aero>FG-1000</aero>
         
         <model>
-            <path></path>
+            <path>Models/FG-1000.ac</path>
         </model>
         
         <sound>
