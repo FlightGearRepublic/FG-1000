@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+    <pitot>
+        <number>0</number> 
+    </pitot>
+
+    <pitot>
+        <number>1</number>
+    </pitot>
+
+    <static>
+        <number>0</number>
+    </static>
+
+    <static>
+        <number>1</number>
+    </static>
+</PropertyList>

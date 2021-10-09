@@ -66,6 +66,10 @@
             <path></path>
         </sound>
         
+        <systems>
+            <path>systems.xml</path>
+        </systems>
+
         <aircraft>
             <icao>
                 <wake-turbulence-category>M</wake-turbulence-category>
