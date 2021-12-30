@@ -69,6 +69,10 @@
         <systems>
             <path>systems.xml</path>
         </systems>
+        
+        <instrumentation>
+            <path>instrumentation.xml</path>
+        </instrumentation>
 
         <aircraft>
             <icao>
@@ -83,4 +87,7 @@
             <multikey include="Input/multikey.xml"/>
         </keyboard>
     </input>
+
+    <nasal>
+    </nasal>
 </PropertyList>
