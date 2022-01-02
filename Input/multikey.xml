@@ -15,4 +15,17 @@
             </binding>
         </key>
     </key>
+    <key n="100">
+        <name>d</name>
+        <desc>Damage</desc>
+        <key n="108">
+            <name>l</name>
+            <desc>Event log</desc>
+            <exit/>
+            <binding>
+                <command>dialog-show</command>
+                <dialog-name>flightlog</dialog-name>
+            </binding>
+        </key>
+    </key>
 </PropertyList>
