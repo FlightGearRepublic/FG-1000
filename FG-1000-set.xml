@@ -89,5 +89,8 @@
     </input>
 
     <nasal>
+        <oxygen>
+            <file>Aircraft/generic/Oxygen/oxygen.nas</file>
+        </oxygen>
     </nasal>
 </PropertyList>
