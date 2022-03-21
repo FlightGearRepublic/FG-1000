@@ -196,18 +196,8 @@
        <y>   0.00 </y>
        <z> -21.60 </z>
      </location>
-     <capacity unit="LBS"> 5437.61 </capacity>
-     <contents unit="LBS"> 2718.81 </contents>
-  </tank>
-
-  <tank type="FUEL" number="1">
-     <location unit="IN">
-       <x> 518.40 </x>
-       <y>   0.00 </y>
-       <z> -21.60 </z>
-     </location>
-     <capacity unit="LBS"> 5437.61 </capacity>
-     <contents unit="LBS"> 2718.81 </contents>
+     <capacity unit="LBS"> 10875.22 </capacity>
+     <contents unit="LBS">  5437.62 </contents>
   </tank>
 
  </propulsion>
