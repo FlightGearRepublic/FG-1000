@@ -1,12 +1,12 @@
 <metrics>
-   <wingarea  unit="FT2">  700.00 </wingarea>
-   <wingspan  unit="FT" >   50.00 </wingspan>
-   <wing_incidence>          2.00 </wing_incidence>
-   <chord     unit="FT" >   14.00 </chord>
-   <htailarea unit="FT2">  140.00 </htailarea>
-   <htailarm  unit="FT" >   28.80 </htailarm>
-   <vtailarea unit="FT2">   84.00 </vtailarea>
-   <vtailarm  unit="FT" >   28.80 </vtailarm>
+   <wingarea       unit="M2">   70.14534 </wingarea>
+   <wingspan       unit="M">    10.77000 </wingspan>
+   <wing_incidence unit="DEG">   0       </wing_incidence>
+   <chord          unit="M" >   10.77000 </chord>
+   <htailarea      unit="FT2"> 140.00    </htailarea>
+   <htailarm       unit="FT" >  28.80    </htailarm>
+   <vtailarea      unit="FT2">  84.00    </vtailarea>
+   <vtailarm       unit="FT" >  28.80    </vtailarm>
    <location name="AERORP" unit="IN">
      <x> 518.40 </x>
      <y>   0.00 </y>
