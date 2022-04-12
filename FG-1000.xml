@@ -39,7 +39,7 @@
 
 -->
 
- <metrics file="metrics.xml"/>
+ <metrics file="FDM/metrics.xml"/>
 
  <mass_balance>
    <ixx unit="SLUG*FT2">     51098 </ixx>
@@ -380,7 +380,7 @@
 
  </flight_control>
 
- <aerodynamics file="aerodynamics.xml"/>
+ <aerodynamics file="FDM/aerodynamics.xml"/>
 
  <external_reactions>
  </external_reactions>
