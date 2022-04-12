@@ -39,31 +39,7 @@
 
 -->
 
- <metrics>
-   <wingarea  unit="FT2">  700.00 </wingarea>
-   <wingspan  unit="FT" >   50.00 </wingspan>
-   <wing_incidence>          2.00 </wing_incidence>
-   <chord     unit="FT" >   14.00 </chord>
-   <htailarea unit="FT2">  140.00 </htailarea>
-   <htailarm  unit="FT" >   28.80 </htailarm>
-   <vtailarea unit="FT2">   84.00 </vtailarea>
-   <vtailarm  unit="FT" >   28.80 </vtailarm>
-   <location name="AERORP" unit="IN">
-     <x> 518.40 </x>
-     <y>   0.00 </y>
-     <z>   0.00 </z>
-   </location>
-   <location name="EYEPOINT" unit="IN">
-     <x> 172.80 </x>
-     <y>   0.00 </y>
-     <z>  36.00 </z>
-   </location>
-   <location name="VRP" unit="IN">
-     <x>0</x>
-     <y>0</y>
-     <z>0</z>
-   </location>
- </metrics>
+ <metrics file="metrics.xml"/>
 
  <mass_balance>
    <ixx unit="SLUG*FT2">     51098 </ixx>
