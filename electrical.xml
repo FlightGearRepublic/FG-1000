@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+    <supplier>
+        <name>Battery</name>
+        <kind>battery</kind>
+        <prop>systems/electrical/battery</prop>
+    </supplier>
+
+    <bus>
+        <name>Battery bus</name>
+        <prop>systems/electrical/bus</prop>
+    </bus>
+
+    <connector>
+        <input>Battery</input>
+        <output>Battery bus</output>
+    </connector>
+</PropertyList>
