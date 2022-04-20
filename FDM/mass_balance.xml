@@ -1,20 +1,21 @@
- <mass_balance>
-   <ixx unit="SLUG*FT2">     51098 </ixx>
-   <iyy unit="SLUG*FT2">    178048 </iyy>
-   <izz unit="SLUG*FT2">    166923 </izz>
-   <emptywt unit="LBS" >     36112 </emptywt>
-   <location name="CG" unit="IN">
-     <x> 518.40 </x>
-     <y>   0.00 </y>
-     <z> -21.60 </z>
-   </location>
-   <pointmass name="Payload">
-    <description> 20144 LBS + full (10875 LBS) fuel should bring model up to entered max weight</description>
-    <weight unit="LBS">  10071.9 </weight>
-    <location name="POINTMASS" unit="IN">
-      <x> 518.40 </x>
-      <y>   0.00 </y>
-      <z> -21.60 </z>
+<?xml version="1.0" encoding="UTF-8"?>
+<mass_balance>
+    <ixx unit="SLUG*FT2">     51098 </ixx>
+    <iyy unit="SLUG*FT2">    178048 </iyy>
+    <izz unit="SLUG*FT2">    166923 </izz>
+    <emptywt unit="LBS">      36112 </emptywt>
+    <location name="CG" unit="IN">
+        <x> 518.40 </x>
+        <y>   0.00 </y>
+        <z> -21.60 </z>
     </location>
-  </pointmass> 
- </mass_balance>
+    <pointmass name="Payload">
+        <description> 20144 LBS + full (10875 LBS) fuel should bring model up to entered max weight</description>
+        <weight unit="LBS"> 10071.9 </weight>
+        <location name="POINTMASS" unit="IN">
+            <x> 518.40 </x>
+            <y>   0.00 </y>
+            <z> -21.60 </z>
+        </location>
+    </pointmass>
+</mass_balance>
