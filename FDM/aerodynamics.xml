@@ -96,7 +96,31 @@
        </product>
     </function>
 
-    <function name="aero/force/Drag_induced">
+        <function name="aero/force/drag">
+            <product>
+                <property>aero/qbar-psf</property>
+                <property>metrics/Sw-sqft</property>
+                <table>
+                    <independentVar lookup="row">aero/alpha-deg</independentVar>
+                    <tableData>
+                        -50  0.637062453058
+                        -40  0.468404593856
+                        -30  0.296993475613
+                        -20  0.142772639982
+                        -10  0.036253891822
+                          0  0.000008157897
+                         10  0.038084261342
+                         20  0.131508406272
+                         30  0.280470730304
+                         40  0.430220067569
+                         50  0.578160893412
+                    </tableData>
+                </table>
+            </product>
+        </function>
+
+
+    <!--<function name="aero/force/Drag_induced">
        <description>Induced drag</description>
          <product>
            <property>aero/qbar-psf</property>
@@ -104,7 +128,7 @@
            <property>aero/cl-squared</property>
            <value>0.12</value>
          </product>
-    </function>
+    </function>>-->
 
     <function name="aero/force/Drag_mach">
        <description>Drag due to mach</description>
