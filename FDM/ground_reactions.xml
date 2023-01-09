@@ -46,10 +46,10 @@
         <retractable>1</retractable>
     </contact>
     <contact type="STRUCTURE" name="LEFT_WING">
-        <location unit="IN">
-            <x> 518.40 </x>
-            <y> -25.00 </y>
-            <z> -21.60 </z>
+        <location unit="M">
+            <x> 12.720 </x>
+            <y> -5.385 </y>
+            <z>  0.111 </z>
         </location>
         <static_friction>  1.00 </static_friction>
         <dynamic_friction> 1.00 </dynamic_friction>
@@ -57,10 +57,10 @@
         <damping_coeff unit="LBS/FT/SEC"> 67131.00 </damping_coeff>
     </contact>
     <contact type="STRUCTURE" name="RIGHT_WING">
-        <location unit="IN">
-            <x> 518.40 </x>
-            <y>  25.00 </y>
-            <z> -21.60 </z>
+        <location unit="M">
+            <x> 12.720 </x>
+            <y>  5.385 </y>
+            <z>  0.111 </z>
         </location>
         <static_friction>  1.00 </static_friction>
         <dynamic_friction> 1.00 </dynamic_friction>
