@@ -207,19 +207,33 @@
 
   </axis>
 
-  <axis name="SIDE">
+    <axis name="SIDE">
 
-    <function name="aero/force/Side_beta">
-       <description>Side force due to beta</description>
-       <product>
-           <property>aero/qbar-psf</property>
-           <property>metrics/Sw-sqft</property>
-           <property>aero/beta-rad</property>
-           <value>-1</value>
-       </product>
-    </function>
+        <function name="aero/force/side">
+            <product>
+                <property>aero/qbar-psf</property>
+                <property>metrics/Sw-sqft</property>
+                <property>aero/beta-deg</property>
+                <table>
+                    <independentVar lookup="row">aero/beta-rad</independentVar>
+                    <tableData>
+                        -50  0.055713020188
+                        -40  0.060432928222
+                        -30  0.044130316308
+                        -20  0.036928297029
+                        -10  0.019773746868
+                          0  0.000001259911
+                         10 -0.019786264854
+                         20 -0.036646922115
+                         30 -0.091332343808
+                         40 -0.034577860456
+                         50 -0.058045611445
+                    </tableData>
+                </table>
+            </product>
+        </function>
 
-  </axis>
+    </axis>
 
   <axis name="ROLL">
 
