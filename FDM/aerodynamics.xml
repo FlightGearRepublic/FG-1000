@@ -96,7 +96,7 @@
        </product>
     </function>
 
-        <function name="aero/force/drag">
+        <function name="aero/force/drag_induced">
             <product>
                 <property>aero/qbar-psf</property>
                 <property>metrics/Sw-sqft</property>
@@ -209,7 +209,7 @@
 
     <axis name="SIDE">
 
-        <function name="aero/force/side">
+        <function name="aero/force/side_yaw">
             <product>
                 <property>aero/qbar-psf</property>
                 <property>metrics/Sw-sqft</property>
